@@ -6,11 +6,6 @@ const controller = require('./controller')
 const staticFiles = require('./static-file')
 const templating = require('./templating')
 
-require('babel-core/register')({
-    presets: ['stage-3']
-});
-
-const model = require('./model')
 
 const app = new Koa()
 
